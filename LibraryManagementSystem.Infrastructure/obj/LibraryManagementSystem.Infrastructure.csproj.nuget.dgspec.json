@@ -4,14 +4,14 @@
     "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj": {
+    "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Core\\LibraryManagementSystem.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
-        "projectName": "LibraryManagementSystem.Infrastructure",
-        "projectPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+        "projectUniqueName": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Core\\LibraryManagementSystem.Core.csproj",
+        "projectName": "LibraryManagementSystem.Core",
+        "projectPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Core\\LibraryManagementSystem.Core.csproj",
         "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
-        "outputPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Infrastructure\\obj\\",
+        "outputPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,163 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj",
+        "projectName": "LibraryManagementSystem.Data",
+        "projectPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Core\\LibraryManagementSystem.Core.csproj": {
+                "projectPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Core\\LibraryManagementSystem.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+        "projectName": "LibraryManagementSystem.Infrastructure",
+        "projectPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Core\\LibraryManagementSystem.Core.csproj": {
+                "projectPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Core\\LibraryManagementSystem.Core.csproj"
+              },
+              "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj": {
+                "projectPath": "C:\\assessments\\LibraryManagementSystem\\LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

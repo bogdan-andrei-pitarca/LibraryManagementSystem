@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LibraryManagementSystem.Core.Enums;
 using LibraryManagementSystem.Core.Models;
 
 namespace LibraryManagementSystem.Core.Interfaces
@@ -18,5 +19,9 @@ namespace LibraryManagementSystem.Core.Interfaces
         Task<bool> ExistsAsync(int id);
         Task<bool> ExistsByEmailAsync(string email);
 
+        Task<bool> HasActiveBorrowingsAsync(int userId);
+        Task<int> GetActiveBorrowingsCountAsync(int userId);
+
+        Task<IEnumerable<User>> GetUsersByRoleAsync(UserRole role);
     }
 }

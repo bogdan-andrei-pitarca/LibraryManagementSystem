@@ -1,4 +1,5 @@
-﻿using LibraryManagementSystem.Core.Models;
+﻿using LibraryManagementSystem.Core.Enums;
+using LibraryManagementSystem.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,6 @@ namespace LibraryManagementSystem.Core.Interfaces
         Task DeleteUserAsync(int id);
         Task<bool> CanBorrowBookAsync(int userId);
         Task<bool> IsUserActiveAsync(int userId);
-        Task<bool> ValidateUserCredentialsAsync(string email, string password);
+        
     }
 }
